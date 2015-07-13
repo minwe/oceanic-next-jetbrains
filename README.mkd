@@ -1,0 +1,39 @@
+# Oceanic Next for JetBrains IDE
+
+JetBrains IDE (e.g. WebStorm, PHPStorm, .etc) port of [Oceanic Next Color Scheme]https://github.com/voronianski/oceanic-next-theme/).
+
+![Oceanic Next for JetBrains IDE](oceanic-next-jetbrains.png)
+
+## Installation
+
+1. Download `settings.jar`.
+2. Click `File` -> `Import Settings` on your IDE's menu, select `settings.jar` and `OK`...
+3. Select `Oceanic Next` form `Preferences` -> `Editor` -> `Colors & Fonts`.
+
+## Recommended Options
+
+### Using JDK8 for Better Color Rendering
+
+1. Download and install JDK8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+2. Change JVM version: taking WebStorm 10 on OS X as example, open `/Applications/WebStorm.app/Contents/Info.plist`, find `JVMVersion`, change the value to `1.8*`
+
+  ```
+        <key>JVMVersion</key>
+        <string>1.8*</string>
+  ```
+
+### Font Rendering options
+
+Just for `*nix` users.
+
+Taking WebStorm 10 on OS X as example:
+
+- Open `/Applications/WebStorm.app/Contents/bin/webstorm.vmoptions`
+- Add below to the end of file:
+
+  ```
+    -Dawt.useSystemAAFontSettings=on
+    -Dswing.aatext=true
+  ```
+
+## MIT Licensed
