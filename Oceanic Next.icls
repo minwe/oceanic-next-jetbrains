@@ -8,6 +8,14 @@
     <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
     <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
+  </console-font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="343d46" />
     <option name="CARET_COLOR" value="65737e" />
@@ -212,6 +220,7 @@
         <option name="FOREGROUND" value="65737e" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.LOCAL_VARIABLE" baseAttributes="JS.LOCAL_VARIABLE" />
     <option name="COFFEESCRIPT.NUMBER">
       <value>
         <option name="FOREGROUND" value="f99157" />
@@ -227,6 +236,7 @@
         <option name="FOREGROUND" value="5fb3b3" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="COFFEESCRIPT.PARENTHESIS">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
@@ -599,25 +609,25 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="cda84c" />
+        <option name="BACKGROUND" value="9c7942" />
         <option name="ERROR_STRIPE_COLOR" value="fac863" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="bd535a" />
+        <option name="BACKGROUND" value="7d3e3e" />
         <option name="ERROR_STRIPE_COLOR" value="ec5f67" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="78a376" />
+        <option name="BACKGROUND" value="3c5f39" />
         <option name="ERROR_STRIPE_COLOR" value="99c794" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="587ca5" />
+        <option name="BACKGROUND" value="344569" />
         <option name="ERROR_STRIPE_COLOR" value="6699cc" />
       </value>
     </option>
@@ -781,6 +791,8 @@
         <option name="FOREGROUND" value="65737e" />
       </value>
     </option>
+    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="eb606b" />
@@ -794,6 +806,7 @@
     <option name="HAML_RUBY_CODE">
       <value />
     </option>
+    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="99c794" />
@@ -814,11 +827,13 @@
         <option name="FOREGROUND" value="5fb3b3" />
       </value>
     </option>
+    <option name="HAML_TEXT" baseAttributes="TEXT" />
     <option name="HAML_WS_REMOVAL">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
       </value>
     </option>
+    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="bb80b3" />
@@ -900,6 +915,10 @@
         <option name="FOREGROUND" value="cdd3de" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
+    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
+    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="JADE_STATEMENTS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="65737e" />
@@ -1123,6 +1142,8 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JSP_SCRIPTING_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="LABEL">
       <value>
         <option name="FOREGROUND" value="c594c5" />
@@ -2261,6 +2282,11 @@
         <option name="FOREGROUND" value="ec5f67" />
       </value>
     </option>
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="XPATH.STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="65737e" />
