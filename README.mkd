@@ -40,4 +40,8 @@ Taking WebStorm 10 on OS X as example:
   -Dswing.aatext=true
   ```
 
+### UI Theme for JetBrains
+
+https://github.com/rofrol/oceanic-next-jetbrains-theme
+
 ## MIT Licensed
