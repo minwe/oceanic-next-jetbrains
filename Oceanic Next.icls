@@ -14,8 +14,9 @@
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
-    <option name="EDITOR_FONT_SIZE" value="16" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="343d46" />
     <option name="CARET_COLOR" value="65737e" />
@@ -195,9 +196,6 @@
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
@@ -1293,9 +1291,6 @@
       <value>
         <option name="FOREGROUND" value="65737e" />
       </value>
-    </option>
-    <option name="PHP_CONSTANT">
-      <value />
     </option>
     <option name="PHP_DOC_COMMENT_ID">
       <value>
